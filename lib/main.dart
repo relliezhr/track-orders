@@ -13,7 +13,7 @@ void main() {
       routes: {
         '/': (context) => home(),
         '/signIn': (context) => signIn(),
-        '/signUp': (context) => signUp()
+        '/signUp': (context) => SignUp()
       },
     ),
   );
